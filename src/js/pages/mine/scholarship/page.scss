@@ -1,0 +1,115 @@
+.scholar-content {
+  min-height: 100vh;
+  background-color: #F4F7FA;
+  padding: 50px 30px;
+  .scholar-item {
+    background-color: #fff;
+    width: 690px;
+    background:rgba(255,255,255,1);
+    border-radius: 20px;
+    padding: 30px;
+    margin-bottom: 30px;
+  }
+
+  .scholar-title {
+    font-size:32px;
+    padding-bottom: 10px;
+    font-weight: 500;
+    color: #282828;
+  }
+
+  .scholar-desc {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    color:rgba(40,40,40,0.65);
+    padding-bottom: 10px;
+  }
+
+  .aleady-time {
+    font-size:56px;
+    color: #5E87F4;
+    margin-top: -10px;
+  }
+
+  .proress {
+    width:630px;
+    height:10px;
+    background:rgba(94,135,244,0.2);
+    border-radius:5px;
+    position: relative;
+    .line {
+      height:10px;
+      border-radius:5px;
+      display: inline-block;
+      background-color: #5E87F4;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  }
+
+  .stydy-time {
+    padding: 25px 0;
+    font-size:28px;
+    color:rgba(40,40,40,0.45);
+  }
+
+  .scholar-btn {
+    width: 630px;
+    height: 90px;
+    background: #5E87F4;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 90px;
+    color: #fff;
+    font-size:36px;
+    font-weight: 500;
+  }
+
+  .scholar-btn-active {
+    opacity: 0.3;
+  }
+
+  .examine {
+    display: flex;
+    align-items: center;
+    img {
+      width: 28px;
+      margin-right: 14px;
+    }
+    span {
+      height: 32px;
+      font-size: 32px;
+      font-weight: 500;
+      color:rgba(255,124,0,1);
+      line-height: 32px;
+    }
+  }
+
+  .adopt {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -30px;
+    div {
+      display: flex;
+      align-items: center;
+    }
+    img {
+      width: 36px;
+      margin-right: 14px;
+    }
+    span {
+      height: 32px;
+      font-size: 32px;
+      font-weight: 500;
+      color: rgba(0,0,0,0.45);
+      line-height: 32px;
+    }
+
+    .yifanxian {
+      width:154px;
+    }
+  }
+}

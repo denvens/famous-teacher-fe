@@ -1,0 +1,201 @@
+.calendar-container{
+    background: #fff;
+    padding-bottom: 120px;
+    overflow-y: auto;
+    padding-top: 80px;
+    .calendar-top-box{
+        height:200px;
+        background-image: url('../../../../imgs/calendar-bg.png');
+        background-size: 100% 100%;
+        text-align: center;
+        line-height: 200px;
+        font-size: 50px;
+        color:#fff;
+    }
+    .calendar-box{
+        margin-top: 20px;
+        .calendar-title{
+            text-align: center;
+            width:560px;
+            position: relative;
+            height:80px;
+            line-height: 80px;
+            font-size: 36px;
+            margin:0 auto;
+            span{
+                font-weight: bold;
+                margin-right: 10px;
+            }
+            .left-icon,.right-icon{
+                width:20px;
+                position: absolute;
+                top:30px;
+            }
+            .left-icon{
+                left: 20px;
+            }
+            .right-icon{
+                right: 20px;
+            }
+        }
+        .calendar-week-list{
+            padding:25px;
+            .week-item{
+                font-size: 40px;
+                float: left;
+                width:100px;
+                text-align: center;
+                font-weight: bold;
+            }
+        }
+        .calendar-list{
+            padding:0 25px;
+            .day-item{
+                float: left;
+                text-align: center;
+                font-size: 36px;
+                width:100px;
+                height:80px;
+                line-height: 80px;
+                span{
+                    width:60px;
+                    height:60px;
+                    border-radius: 30px;
+                    display: inline-block;
+                    margin-top: 10px;
+                    line-height: 60px;
+                }
+                // 已学未打卡
+                .study-no-share{
+                    background:rgba(255,59,48,0.2);
+                }
+                .select-study-no-share{
+                    background: #FF3B30;
+                    color:#fff;
+                }
+                // 已学已打卡
+                .study-share{
+                    background:rgba(94,135,244,0.2);
+                }
+                .select-study-share{
+                    background:#5E87F4;
+                    color:#fff;
+                }
+                // 未开始课程
+                .select-no-start{
+                    // background:rgba(238,241,248,1);
+                    font-weight: 700;
+                    color: #5E87F4;
+                }
+                .today-item{
+                    background:rgba(0,0,0,0.6);
+                    color:#fff;
+                }
+                .select-today-item{
+                    background: #000;
+                    color:#fff;
+                    font-weight: 400;
+                }
+
+            }
+            
+        }
+    }
+    .calendar-day-desc-box{
+        position: relative;
+        margin-top: 50px;
+        padding:0 25px;
+        .day-top{
+            position: absolute;
+            top:-40px;
+            width: 0;
+            height: 0;
+            border-top:20px solid transparent;
+            border-left:30px solid transparent;
+            border-right:30px solid transparent;
+            border-bottom: 20px solid rgba(94,135,244,0.1);
+        }
+        .day-top-left0{
+            left:45px;
+        }
+        .day-top-left1{
+            left:145px;
+        }
+        .day-top-left2{
+            left:245px;
+        }
+        .day-top-left3{
+            left:345px;
+        }
+        .day-top-left4{
+            left:445px;
+        }
+        .day-top-left5{
+            left:545px;
+        }
+        .day-top-left6{
+            left:645px;
+        }
+        .calendar-day-desc{
+            border-radius: 10px;
+            background: rgba(94,135,244,0.1);
+            padding: 30px;
+            .calendar-day-text{
+                float: left;
+                height:60px;
+                line-height: 60px;
+                color:#5E87F4;
+                font-weight: bold;
+            }
+            .calendar-day-type{
+                float: right;
+                height:60px;
+                line-height: 60px;
+                color:#5E87F4;
+                font-size: 24px;
+            }
+            .no-share-day-type{
+                color:#FF3B30;
+            }
+            .calendar-day-title{
+                line-height: 70px;
+                font-size: 42px;
+                font-weight: bold;
+            }
+        }
+    }
+
+    .calendar-color-box{
+        margin:20px 0;
+        padding:0 40px;
+        font-size: 24px;
+        .color-share{
+            height:40px;
+            line-height: 40px;
+            margin-right: 20px;
+            span{
+                // display: inline-block;
+                float: left;
+                width:40px;
+                height:40px;
+                border-radius: 20px;
+                background: rgba(94,135,244,0.2);
+                margin-right: 10px;
+            }
+        }
+        .color-finish{
+            height:40px;
+            line-height: 40px;
+            margin-right: 20px;
+            span{
+                // display: inline-block;
+                float: left;
+                width:40px;
+                height:40px;
+                border-radius: 20px;
+                background:rgba(255,59,48,0.2);
+                margin-right: 10px;
+            }
+        }
+    }
+}

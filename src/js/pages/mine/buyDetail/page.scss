@@ -1,0 +1,137 @@
+.buy-content {
+  min-height: 100vh;
+  background-color: #F4F7FA;
+  padding-top: 50px;
+  box-sizing: border-box;
+  .not-order {
+    padding-top: 180px;
+    img {
+      width: 600px;
+      display: block;
+      margin: 0 auto;
+    }
+
+    .not-order-desc {
+      font-size: 32px;
+      font-family: PingFangSC-Regular,PingFang SC;
+      font-weight: 400;
+      color: rgba(0,0,0,0.45);
+      line-height: 32px;
+      padding-top: 20px;
+      text-align: center;
+    }
+    .not-order-btn {
+      width:630px;
+      height:90px;
+      background:rgba(94,135,244,1);
+      border-radius:10px;
+      margin: 0 auto;
+      margin-top: 108px;
+      color: #fff;
+      line-height: 90px;
+      text-align: center;
+    }
+  }
+
+  .tuan-item {
+    width:690px;
+    height:450px;
+    background:rgba(255,255,255,1);
+    border-radius:20px;
+    margin: 0 auto;
+    padding: 40px;
+    position: relative;
+  }
+
+  .conducting {
+    position: absolute;
+    top: -20px;
+    right: 29px;
+    width:132px;
+  }
+
+  .group {
+    position: absolute;
+    top: 25px;
+    right: 36px;
+    width: 114px;
+  }
+
+  .tuan-item .title{
+    font-size: 32px;
+    font-family: PingFangSC-Medium,PingFang SC;
+    font-weight: 500;
+    color: rgba(40,40,40,1);
+    line-height: 32px;
+    padding-bottom: 40px;
+  }
+  .user-img {
+    display: flex;
+    img {
+      width: 124px;
+      height: 124px;
+      border-radius: 50%;
+      border: 4px solid #fff;
+    }
+  }
+
+  .commander,.member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 60px;
+    justify-content: space-between;
+    height: 180px;
+  }
+
+  .member-header {
+    margin-right: -40px;
+  }
+
+  .tuan-btn {
+    position: relative;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+  }
+
+  .time {
+    padding-top: 32px;
+    p {
+      margin: 0;
+      font-size:28px;
+      padding-bottom: 10px;
+    }
+    span {
+      width:48px;
+      height:40px;
+      background:rgba(56,60,70,1);
+      border-radius:4px;
+      display: inline-block;
+      color: #fff;
+      line-height: 40px;
+      text-align: center;
+    }
+  }
+
+  .btn {
+    width:288px;
+    height:90px;
+    border-radius:10px;
+    border:2px solid rgba(94,135,244,1);
+    font-size:30px;
+    font-family:PingFangSC-Regular,PingFang SC;
+    font-weight:400;
+    color:rgba(94,135,244,1);
+    line-height:90px;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    top: 42px;
+  }
+
+  .invitation-btn {
+    background-color: #5E87F4;
+    color: #fff;
+  }
+}

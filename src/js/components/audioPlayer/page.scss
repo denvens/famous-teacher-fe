@@ -1,0 +1,115 @@
+.audio {
+    .slider {
+        width: 100%;
+        position: relative;
+        display: flex;
+        align-items: center;
+        cursor: default;
+        user-select: none;
+        outline: none;
+        margin-left: 10px;
+    }
+
+    .slider-track {
+        position: absolute;
+        height: 4px;
+        left: 0;
+        right: 0;
+        top: 50%;
+        margin-top: -1px;
+        background:rgba(94,135,244,0.3);
+    }
+
+    .slider-fill {
+        position: absolute;
+        height: 4px;
+        width: 100%;
+        background:rgba(94,135,244,0.3);
+        left: 0;
+        top: 50%;
+        margin-top: -1px;
+    }
+
+    .slider-thumb {
+        position: absolute;
+        top: 50%;
+        width: 40px;
+        height: 40px;
+        background-color: #fff;
+        color: rgba(94,135,244,1);
+        box-shadow:0px 0px 8px 0px rgba(0,20,60,0.18);
+        border-radius: 50%;
+        transform: translate(-50%, -50%);
+        cursor: pointer;
+    }
+
+    .player-btn {
+        width: 100px;
+    }
+    .player-btn img{
+        width: 60px;
+        height: 74px;
+        vertical-align: middle;
+    }
+
+    .audio-box {
+        display: flex;
+        align-items: center;
+        width: 530px;
+        height: 90px;
+        background:rgba(94,135,244,0.1);
+        padding-right: 56px;
+        border-radius: 10px;
+        margin: 0 auto;
+        justify-content: center;
+        position: relative;
+    }
+
+    .audio-box-short {
+        justify-content: left;
+        width: 340px;
+        .slider {
+            display: none;
+        }
+    }
+
+    .triangle {
+        border-top: 16px solid transparent;
+        border-left: 16px solid transparent;
+        border-bottom: 16px solid transparent;
+        border-right: 16px solid rgba(94,135,244,0.1);
+        position: absolute;
+        left: -32px;
+    }
+    .audio-time {
+        color: rgba(0,0,0,0.45);
+        font-size: 28px;
+        position: absolute;
+        right: -100px;
+
+    }
+
+    .thumb-modal {
+        position: absolute;
+        top: -110px;
+        left: -40px;
+        width: 120px;
+        height: 90px;
+        border-radius: 10px;
+        background:rgba(0,0,0,0.75);
+        color: #fff;
+        text-align: center;
+        line-height: 90px;
+        box-shadow:0px 0px 12px 0px rgba(0,20,60,0.06);
+    }
+
+    .thumb-triangle {
+        border-right: 16px solid transparent;
+        border-left: 16px solid transparent;
+        border-bottom: 16px solid transparent;
+        border-top: 16px solid rgba(0,0,0,0.75);
+        position: absolute;
+        left: -0px;
+        top: -20px;;
+    }
+}

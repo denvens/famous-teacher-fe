@@ -1,0 +1,66 @@
+
+.mine-index-content {
+  min-height: 100vh;
+  background-color: #F4F7FA;
+  .avatar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    padding: 0 30px;
+    height: 220px;
+    margin-bottom: 30px;
+    background-color: #fff;
+    .avatar-img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+    }
+
+    .avatar-desc {
+      color:rgba(0,0,0,0.45);
+      font-size: 28px;
+      line-height: 40px;
+      margin: 0;
+      padding-top: 14px;
+    }
+
+    .user-name {
+      font-size: 43px;
+      line-height: 50px;
+      font-family:PingFangSC-Medium,PingFangSC;
+      font-weight:500;
+      margin: 0;
+      margin-bottom: 30px;
+    }
+
+    .openid {
+      font-size: 26px;
+      color: rgba(0,0,0,0.45);
+      margin: 0;
+      display: flex;
+    }
+
+    .openid-copy {
+      width: 32px;
+      height: 32px;
+      margin-left: 20px;
+    }
+  }
+
+  .mine-item {
+    font-size: 30px;
+    height: 100px;
+    line-height: 100px;
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #333;
+    text-decoration: none;
+    background-color: #fff;
+    img {
+      width: 16px;
+    }
+  }
+}

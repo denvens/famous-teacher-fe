@@ -1,0 +1,74 @@
+.question-content {
+  .lesson-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    height: 80px;
+    background-color: #fff;
+    border-bottom: 1px solid #f0f0f0;
+    img {
+      width: 40px;
+    }
+  }
+
+  .progress {
+    background-color: #5E87F4;
+    height: 4px;
+  }
+  
+  .title {
+    margin-top: 300px;
+    text-align: center;
+  }
+  
+  .next-prev-btn {
+    display: flex;
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    padding: 0 50px;
+    justify-content: space-between;
+    z-index: 999;
+    background-color: #fff;
+    height: 100px;
+    box-shadow: 1px 4px 3px 6px #f7fbff;
+    padding-top: 10px;
+    img {
+      width: 40px;
+    }
+  }
+  
+  .next-btn,.prev-btn-active {
+    height: 80px;
+    line-height: 60px;
+    border-radius: 10px;
+    color:rgba(0,0,0,0.45);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    width: 160px;
+    flex-direction: column;
+    font-size:22px;
+  }
+
+  .next-btn-active {
+    width: 180px;
+  }
+
+  .prev-btn {
+    opacity: 0.5;
+  }
+  
+  .quill {
+    height: 200px;
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid #f0f0f0;
+    .quill-editor {
+      height: 200px;
+      width: 100%;
+    }
+  }
+}

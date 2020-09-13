@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+html{
+    font-family: "Helvetica Neue", "Arial", "Helvetica","PingFangSC";
+}
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+    font-family: 'Helvetica, Arial';
+    color: #2d2d2d;
+}
+ul,li{
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+img {
+    content: normal !important;
+}

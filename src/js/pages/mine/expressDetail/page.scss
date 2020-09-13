@@ -1,0 +1,112 @@
+.express-detail {
+  min-height: 100vh;
+  background-color: #F4F7FA;
+  .detail {
+    background-color: #fff;
+    height: 200px;
+    padding: 50px 60px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+
+  .express-box {
+    width: 102px;
+    margin-right: 40px;
+  }
+
+  .status {
+    font-size: 36px;
+    font-family: PingFangSC-Medium,PingFang SC;
+    font-weight: 500;
+    color: rgba(40,40,40,1);
+    line-height: 32px;
+    padding-bottom: 22px;
+  }
+
+  .num {
+    font-size: 28px;
+    font-family: PingFangSC-Regular,PingFang SC;
+    font-weight: 400;
+    color: rgba(0,0,0,0.45);
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    img {
+      width: 32px;
+      margin-left: 30px;
+    }
+  }
+
+  .express-list {
+    padding: 50px 32px;
+    background: #fff;
+  }
+
+  .address {
+    display: flex;
+    .time {
+      width: 88px;
+      font-size:24px;
+      color:rgba(0,0,0,0.45);
+      margin-right: 8px;
+      p {
+        margin: 0;
+        line-height:32px;
+      }
+    }
+    img {
+      width: 48px;
+      opacity: 0.45;
+    }
+
+    .dian img {
+      width: 16px;
+      height: 16px;
+      display: block;
+      border-radius: 50%;
+      background-color: #D1D1D6;
+    }
+
+    .address-line {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-right: 20px;
+    }
+
+    .line {
+      width: 2px;
+      height: 100%;
+      background:rgba(229,229,234,1);
+      margin: 10px 0;
+    }
+
+    .title {
+      font-size: 28px;
+      font-family: PingFangSC-Medium,PingFang SC;
+      font-weight: 500;
+      color:rgba(0,0,0,0.45);
+      line-height: 40px;
+      padding-bottom: 10px;
+    }
+
+    .address-detail {
+      width: 530px;
+      font-size:24px;
+      color:rgba(0,0,0,0.45);
+      line-height:30px;
+      padding-bottom: 50px;
+    }
+
+    .active {
+      color:rgba(0,0,0,1);
+      opacity: 1;
+    }
+
+    .address-dian {
+      margin-left: 8px;
+      margin-right: 4.8vw;
+    }
+  }
+}

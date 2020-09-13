@@ -1,0 +1,137 @@
+.paragraph-content {
+  font-size: 30px;
+  .paragraph-options {
+    line-height: 50px;
+    color:rgba(0,0,0,0.65);
+    margin-bottom: 16px;
+  }
+
+  .head-options-num {
+    font-size:28px;
+    font-family:PingFangSC-Regular,PingFang SC;
+    font-weight:400;
+    color:rgba(0,0,0,0.33);
+    line-height:44px;
+  }
+
+  .options-box {
+    background-color: #F7FBFF;
+    font-size:28px;
+    font-weight:400;
+    color:rgba(0,0,0,0.65);
+    line-height:44px;
+    padding: 40px 40px 80px;
+  }
+
+  .question-box {
+    padding: 60px 40px;
+    padding-bottom: 0;
+  }
+
+  .head-options {
+    font-size: 34px;
+    font-weight: 700;
+    padding-right: 20px;
+  }
+
+  .option-box {
+    padding: 20px 0;
+    padding-left: 40px;
+  }
+
+  .question-item {
+    font-size:32px;
+    font-family:PingFangSC-Medium,PingFang SC;
+    font-weight:500;
+    color:rgba(0,0,0,1);
+    line-height:48px;
+    display: flex;
+  }
+
+  .option {
+    width:96px;
+    height:96px;
+    border-radius:10px;
+    border:2px solid rgba(198,203,209,1);
+    display: inline-block;
+    margin-right: 20px;
+    font-weight:500;
+    color:rgba(0,0,0,0.65);
+    text-align: center;
+    line-height: 96px;
+    margin-bottom: 20px;
+    position: relative;
+  }
+
+  .option-bubble {
+    position: absolute;
+    width: 670px;
+    bottom: 130px;
+    left: -40px;
+    color: #fff;
+    background:#737070;
+    text-align: left;
+    padding: 30px;
+    border-radius: 10px;
+    font-size:28px;
+    line-height:44px;
+    font-weight:400;
+    span {
+      border-bottom: 30px solid transparent;
+      border-left: 30px solid transparent;
+      border-right: 30px solid transparent;
+      border-top: 31px solid #737070;
+      position: absolute;
+      bottom: -57px;
+      left: 60px;
+      display: block;
+    }
+  }
+  .option-bubble-left1 {
+    left: -40px;
+    span {
+      left: 70px;
+    }
+  }
+  .option-bubble-left2 {
+    left: -156px;
+    span {
+      left: 186px;
+    }
+  }
+  .option-bubble-left3 {
+    left: -272px;
+    span {
+      left: 302px;
+    }
+  }
+  .option-bubble-left4 {
+    left: -388px;
+    span {
+      left: 418px;
+    }
+  }
+  .option-bubble-left5 {
+    left: -504px;
+    span {
+      left: 534px;
+    }
+  }
+
+  .option-active {
+    color: #fff;
+    background-color: #5E87F4;
+    border: 1px solid #5E87F4;
+  }
+
+  .option-active-err {
+    color: #fff;
+    background-color: #b3330d;
+    border: 1px solid #b3330d;
+  }
+  .option-active-success {
+    color: #fff;
+    background-color: #76B438;
+    border: 1px solid #76B438;
+  }
+}
